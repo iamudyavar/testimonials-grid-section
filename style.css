@@ -54,35 +54,35 @@ body {
     line-height: 1.2rem;
 }
 
-.grid-item #title {
+.grid-item .title {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     opacity: 100%;
 }
 
-#header {
+.header {
     display: flex;
     align-items: center;
     margin-bottom: 1.25rem;
 }
 
-#header #name {
+.header .name {
     opacity: 100%;
     font-size: 1rem;
 }
 
-#header img {
+.header img {
     width: 2.5rem;
     height: auto;
     border-radius: 50%;
     margin-right: 1.6rem;
 }
 
-#testimonial-1 #header img {
+#testimonial-1 .header img {
     border: 3px solid hsl(265, 68%, 68%);
 }
 
-#testimonial-4 #header img {
+#testimonial-4 .header img {
     border: 3px solid hsl(262, 49%, 50%);
 }
 
