@@ -43,8 +43,8 @@ body {
 }
 
 .grid-item {
-    margin-bottom: 30px;
-    padding: 30px;
+    margin-bottom: 1.8rem;
+    padding: 1.8rem;
     border-radius: 10px;
     box-shadow: 5px 2px 17px -4px rgba(0,0,0,0.3);
 }
@@ -55,16 +55,15 @@ body {
 }
 
 .grid-item #title {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     font-size: 1.25rem;
-    font-weight: 600;
     opacity: 100%;
 }
 
 #header {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 #header #name {
@@ -73,10 +72,10 @@ body {
 }
 
 #header img {
-    width: 40px;
+    width: 2.5rem;
     height: auto;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 1.6rem;
 }
 
 #testimonial-1 #header img {
@@ -107,7 +106,7 @@ body {
     }
 
     #main-left .grid-item {
-        margin-right: 35px;
+        margin-right: 2.1rem;
     }
 
     #top, #bottom {
@@ -115,10 +114,10 @@ body {
     }
 
     #testimonial-1, #testimonial-4 {
-        flex-basis: 65%;
+        flex-basis: 68%;
     }
 
     #testimonial-2, #testimonial-3 {
-        flex-basis: 35%;
+        flex-basis: 32%;
     }
 }
